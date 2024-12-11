@@ -1,1 +1,1 @@
-# ece385
+# SystemVerilog ECE 385 code
