@@ -1,7 +1,10 @@
-There is a lot of missing code here, especially with the visual side of things (color mapper).
+# 🕹️ Donkey Kong FPGA Video Game Emulator
+ ---
+ - Implemented player movement, including left/right motion, jumping/gravity, and ladder climbing
+ - Designed player win/lose logic, including fall damage, barrel collisions, a life counter, and a timer
+ - Developed python script to convert PNG images into sprites uploaded onto FPGA on-chip memory
+ - Created custom sprites using just 1's and 0's. (Check mario.sv)
+ - Connected USB and HDMI peripherals for I/O
 
-The ball.sv file should have up-to-date game logic.
-
-There are also some cool sprites and data in this repo which you might find interesting.
-
-The mario sprite was created by manually copying every pixel from a 16x16 image. No script needed!
+---
+This code is not runnable, since it was a collaborative project. Some of these files are not the final/completed version of the code. There are also a lot of files left out that were taken from external libraries (such as VGA controller)
